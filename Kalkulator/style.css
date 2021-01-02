@@ -1,0 +1,99 @@
+*   {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body  {
+    background-color: rgb(177, 211, 231);
+}
+
+.card   {
+    width: 300px;
+    height: 430px;
+    background-color: #fff;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .4);
+    padding: 20px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Display */
+
+.card-display   {
+    border: 1px solid rgb(28, 133, 253);
+    background-color: rgb(191, 237, 248);
+    border-radius: 5px;
+    height: 70px;
+    opacity: .5;
+    margin-bottom: 15px;
+    font-size: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#miniDisplay    {
+    /* border: 1px solid black; */
+    height: 25px;
+    font-size: 15px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#display {
+    /* border: 1px solid black; */
+    height: 45px;
+}
+
+
+/* Button */
+.card-button    {
+    height: 310px;
+    border: 1px solid rgb(28, 133, 253);
+    background-color: rgb(191, 237, 248);
+    opacity: .5;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+
+.button    {
+    /* width: 85%; */
+    /* height: 40px; */
+    border: 1px solid rgb(191, 237, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button:hover     {
+    border: 1px solid rgb(8, 210, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
