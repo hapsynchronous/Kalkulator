@@ -4,7 +4,6 @@ let calc = {
     miniDisplay: null,
     result: 0,
     operator: null,
-    // firstNumber: null,
     input: 8,
     waitingForSecondNumber: false
 }
